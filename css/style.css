@@ -5,6 +5,7 @@ body
 {
     margin: 0; 
     padding: 0;
+    min-width: 1100px;
 }
 
 .warp
@@ -20,14 +21,11 @@ body
     padding: 20px 0;
 }
 
-.header__center:after
+.header__top
 {
-    content: "";
-    display: block;
-    background-color: black;
-    margin: 10px auto;
-    height: 0.5px;
-    width: 100%;
+    border-bottom: 0.5px solid black;
+    display: flex;
+    padding-left: 150px;
 }
 
 .header__bottom
@@ -46,15 +44,14 @@ body
 
 .header__center
 {
-    margin: 0 auto;
+    height: 30px;
+    margin: auto;
 }
 
 .header__right
 {
-   position: absolute;
-   margin: 0;
-   right: 0;
-   top: 0;
+   height: 30px;
+   margin-right: 10px;
 }
 
 .header__inner__item
@@ -88,11 +85,6 @@ body
 }
 
 
-.about__language
-{
-    margin: 18px 40px;
-}
-
 .about__item__bottom
 {
     margin: 0 30px;
@@ -117,6 +109,8 @@ body
 
 .select__language
 {
+    background-color: #fff;
+    border: 0;
     margin: 0 20px;
     text-decoration: none;
     color: #252930;
@@ -139,6 +133,7 @@ body
 
 .button__header
 {
+    background-color: #fff;
     border: 1px solid #252930;
     box-sizing: border-box;
     border-radius: 0px;

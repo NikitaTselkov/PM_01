@@ -8,24 +8,26 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Strato Automation</title>
 </head>
 
 <body>
     <header class="header">
-        <section class="header__center">
-            <nav class="about">
-                <a class="about__item" href="#">Collaborations</a>
-                <a class="about__item" href="#">Documentation</a>
-                <a class="about__item" href="#">Contact</a>
-            </nav>
-        </section>
-        <section class="header__right">
-            <nav class="about__language">
-                <a class="select__language selected">En</a>
-                <a class="select__language">Fr</a>
-            </nav>
-        </section>
+        <div class="header__top">
+            <section class="header__center">
+                <nav class="about">
+                    <a class="about__item" href="#">Collaborations</a>
+                    <a class="about__item" href="#">Documentation</a>
+                    <a class="about__item" href="#">Contact</a>
+                </nav>
+            </section>
+            <section class="header__right">
+                <nav class="about__language">
+                    <button class="select__language selected">En</button>
+                    <button class="select__language">Fr</button>
+                </nav>
+            </section>
+        </div>
         <section class="header__bottom warp">
             <svg class="logo" viewBox="0 0 159 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 12C0 5.37258 5.37258 0 12 0V24C5.37258 24 0 18.6274 0 12Z" fill="#252930" />
@@ -86,7 +88,7 @@
                 <a class="about__item__bottom" href="#">Products</a>
                 <a class="about__item__bottom" href="#">About us</a>
             </nav>
-            <a class="button__header" href="#">Partners Resources</a>
+            <button class="button__header">Partners Resources</button>
         </section>
     </header>
 
