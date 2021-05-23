@@ -1,5 +1,5 @@
 
-/* Body */
+/* Default */
 
 body
 {
@@ -8,9 +8,34 @@ body
     min-width: 1100px;
 }
 
+.button
+{
+    font-size: 16px;
+    line-height: 16px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-image: url(/img/Arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: pointer;
+    border: 2px solid #FF5F00;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    padding: 0 25px 5px 0;
+}
+
 .warp
 {
     margin: 0 40px;
+}
+
+.list
+{
+    list-style: none;
+    padding: 0;
 }
 
 /* Header */
@@ -67,13 +92,16 @@ body
     margin: auto;
 }
 
-
 .header__inner
 {
     display: flex;
     justify-content: space-between;
 }
 
+.city
+{
+    margin: 0 -40px 0 0;
+}
 
 /* About */
 
@@ -128,6 +156,91 @@ body
     cursor: pointer;
 }
 
+/* New product */
+
+.new__product
+{
+    margin-top: 100px;
+    height: 730px;
+    position: relative;
+}
+
+.new__product__content
+{
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.new__product__img
+{
+   margin-top: 50px;
+   margin-left: 70px;
+   position: absolute;
+}
+
+.new__product__svg
+{
+    position: absolute;
+}
+
+.new__product__info
+{
+    border: 1px solid #252930;
+    box-sizing: border-box;
+    border-radius: 0px;
+    width: 585px;
+    height: 320px;
+    margin-top: 150px;
+}
+
+.new__product__info__content
+{
+    margin: 50px;
+}
+
+.new__product__item
+{
+    width: 494px;
+    height: 517px;
+    margin-right: -20px;
+}
+
+.new__product__title
+{
+    color: #252930;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-shadow: 0 0.3px 0 black;
+    margin: 0;
+}
+
+.new__product__name
+{
+    color: #252930;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    text-shadow: 0 0.3px 0 black;
+    margin: 10px 0 30px 0;
+}
+
+.new__product__description
+{
+    color: rgba(37, 41, 48, 0.8);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.new__product__description::before
+{
+    content: url(/img/marker.svg);
+    padding-right: 5px;
+}
 
 /* Button */
 
@@ -153,10 +266,8 @@ body
     border-color: #fff;
 }
 
-
-/* Image */
-
-.city
+.new__product__button
 {
-    margin: 0 -40px 0 0;
+    margin-top: 25px;
 }
+
