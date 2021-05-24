@@ -5,7 +5,7 @@ body
 {
     margin: 0; 
     padding: 0;
-    min-width: 1100px;
+    min-width: 1430px;
 }
 
 .button
@@ -25,6 +25,7 @@ body
     border-right: none;
     background-color: transparent;
     padding: 0 25px 5px 0;
+    height: 35px;
 }
 
 .warp
@@ -36,6 +37,11 @@ body
 {
     list-style: none;
     padding: 0;
+}
+
+.border__buttom
+{
+    border-bottom: 1px solid rgba(37, 41, 48, 0.2);
 }
 
 /* Header */
@@ -242,6 +248,109 @@ body
     padding-right: 5px;
 }
 
+
+/* Cards */
+
+.card__section
+{
+    min-height: 980px;
+    margin-top: 0;
+}
+
+.cards
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    flex-wrap: wrap;
+}
+
+.card
+{
+   margin-top: 30px;
+   width: 450px;
+   position: relative;
+}
+
+.card__info
+{
+    margin: 30px;
+}
+
+.card__background
+{
+    background-color: #F87200;
+    height: 418px;
+}
+
+.card__title
+{
+    color: #252930;
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 25px;
+    position: absolute;
+}
+
+.card__summary
+{
+    font-size: 12px;
+    line-height: 17px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #E8E9EA;
+    display: block;
+    position: absolute;
+    padding: 7px 10px ;
+    right: 0;
+    margin: -15px 50px 0 0;
+}
+
+.card__section__info
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: auto;
+}
+
+.card__section__title
+{
+    font-size: 24px;
+    line-height: 26px;
+    color: #252930;
+    text-shadow: 0 0.3px 0 black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.card__section__subtitle
+{
+    font-size: 36px;
+    line-height: 40px;
+    color: rgba(37, 41, 48, 0.8);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.card__description
+{
+    font-size: 16px;
+    line-height: 18px;
+    color: #F87200;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+
 /* Button */
 
 .button__header
@@ -261,7 +370,7 @@ body
 
 .button__header:hover
 {
-    background: #FF5F00;
+    background: #F87200;
     color: #fff;
     border-color: #fff;
 }
@@ -271,3 +380,10 @@ body
     margin-top: 25px;
 }
 
+
+.card__button
+{
+    border-bottom: none;
+    margin: 0;
+    padding: 0 25px 0 0;
+}
