@@ -418,6 +418,52 @@ body
     margin-bottom: 30px;
 }
 
+/* Stories */
+
+.stories
+{
+    height: 565px;
+    display: flex;
+    justify-content: center;
+}
+
+.stories__info
+{
+    border: 1px solid #252930; 
+    box-sizing: border-box;
+    border-radius: 0px;
+    height: 295px;
+    padding: 60px;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+
+.stories__title
+{
+    font-size: 35px;
+    line-height: 40px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.stories__content
+{
+    font-size: 15px;
+    line-height: 23px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* Products */
+
+.products
+{
+    height: 570px;
+}
+
 /* Button */
 
 .button__header
