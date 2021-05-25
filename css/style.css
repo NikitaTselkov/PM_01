@@ -350,6 +350,73 @@ body
     padding-bottom: 30px;
 }
 
+/* Company */
+
+.company
+{
+    height: 480px;
+}
+
+.company__info
+{
+    position: relative;
+    background-color: white;
+    height: 336px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company__info__left
+{
+    margin: 30px;
+    width: 600px;
+    margin-right: 80px;
+}
+
+.company__info__right
+{
+    background-color: #E8E9EA;
+    width: 100%;
+    position: relative;
+}
+
+.company__info__content
+{
+    display: flex;
+    margin: 60px 40px;
+    justify-content: space-between;
+}
+
+.company__info__blocks
+{
+    display: flex;
+}
+
+.company__info__block
+{
+    display: block;
+    width: 225PX;
+    margin: 0 0 0 40px;
+}
+
+.company__info__suptitle
+{
+    color: #252930;
+    font-size: 24px;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 0.2px 0 black;
+}
+
+.company__info__title
+{
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #252930;
+    margin: 0;
+    margin-bottom: 30px;
+}
 
 /* Button */
 
@@ -386,4 +453,18 @@ body
     border-bottom: none;
     margin: 0;
     padding: 0 25px 0 0;
+}
+
+.company__info__button
+{
+    border-bottom: none;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.company__info__button__bottom
+{
+    border-bottom: 1px solid black;
+    margin: 0;
+    margin-top: 10px;
 }
