@@ -464,6 +464,34 @@ body
     height: 570px;
 }
 
+.products__content
+{
+    background-color: #F87200;
+    margin-top: 100px;
+    display: flex;
+    height: 469px;
+}
+
+.products__content__title
+{
+    font-size: 36px;
+    line-height: 40px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.products__content__left
+{
+    margin: auto;
+}
+
+.products__content__right
+{
+    margin: auto;
+}
+
 /* Button */
 
 .button__header
@@ -508,7 +536,12 @@ body
     margin-top: 10px;
 }
 
-.company__info__button__bottom
+.products__button
+{
+    text-shadow: 0 0.2px 0 black;
+}
+
+.button__with__bottom
 {
     border-bottom: 1px solid black;
     margin: 0;
