@@ -605,6 +605,118 @@ body
 .footer
 {
     height: 340px;
+    position: relative;
+}
+
+.footer__content
+{
+    position: absolute;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%
+}
+
+.footer__contacts__title
+{
+    font-size: 13px;
+    line-height: 19px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-shadow: 0 0.2px 0 black;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.footer__contacts__addres
+{
+    font-size: 16px;
+    line-height: 23px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.footer__contacts__phone
+{
+    font-size: 16px;
+    line-height: 23px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.footer__contacts__mail
+{
+    font-size: 15px;
+    line-height: 23px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.footer__logo__date
+{
+    font-size: 13px;
+    line-height: 19px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 80px;
+}
+
+.footer__follow__title
+{
+    font-size: 13px;
+    line-height: 19px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.footer__follow__link
+{
+    font-size: 12px;
+    line-height: 17px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer__follow__content
+{
+    display: flex;
+}
+
+.footer__twitter
+{
+    display: flex;
+}
+
+.footer__linkedin
+{
+    display: flex;
+    margin-left: 60px;
+}
+
+.footer__feedback__title
+{
+    font-size: 13px;
+    line-height: 19px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
 }
 
 /* Button */
@@ -668,4 +780,10 @@ body
     margin: 0;
     margin-top: 10px;
     padding-bottom: 0;
+}
+
+.footer__feedback__button
+{
+    padding-right: 200px;
+    margin-top: 20px;
 }
