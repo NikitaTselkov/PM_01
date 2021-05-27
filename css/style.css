@@ -604,14 +604,13 @@ body
 
 .footer
 {
-    height: 340px;
+    height: 220px;
     position: relative;
 }
 
 .footer__content
 {
-    position: absolute;
-    margin-top: 120px;
+    margin-top: 180px;
     display: flex;
     justify-content: space-between;
     width: 95%
@@ -740,6 +739,7 @@ body
 {
     margin: 0;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .button__header:hover
@@ -752,6 +752,7 @@ body
 .new__product__button
 {
     margin-top: 25px;
+    cursor: pointer;
 }
 
 
@@ -760,6 +761,7 @@ body
     border-bottom: none;
     margin: 0;
     padding: 0 25px 0 0;
+    cursor: pointer;
 }
 
 .company__info__button
@@ -767,11 +769,13 @@ body
     border-bottom: none;
     margin: 0;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .products__button
 {
     text-shadow: 0 0.2px 0 black;
+    cursor: pointer;
 }
 
 .button__with__bottom
@@ -780,10 +784,12 @@ body
     margin: 0;
     margin-top: 10px;
     padding-bottom: 0;
+    cursor: pointer;
 }
 
 .footer__feedback__button
 {
     padding-right: 200px;
     margin-top: 20px;
+    cursor: pointer;
 }
