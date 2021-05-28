@@ -1,0 +1,12 @@
+.header_about {
+width: 100px;
+}
+.header_link {
+   font-size: 15px;
+line-height: 105.3%;
+text-transform: uppercase;
+color: #000000;
+font-family: 'Noto Sans JP', sans-serif;
+text-decoration: none;
+margin: 19.5px 0px;
+}
