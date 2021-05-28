@@ -1,12 +1,132 @@
-.header_about {
-width: 100px;
+
+/* default */
+
+*
+{
+   padding: 0;
+   margin: 0;
 }
-.header_link {
+
+.warp
+{
+   margin: 0 60px;
+}
+
+body
+{
+   min-width: 1000px;
+   background: #F5F5F5;
+}
+
+/* Header */
+
+.header
+{
+   height: 800px;
+}
+
+.header_logo
+{
+   height: 60px;
+   margin-right: auto;
+}
+
+.header_center
+{
+   display: flex;
+}
+
+.header_content
+{
+   margin-top: 60px;
+}
+
+.header_top
+{ 
+   display: flex;  
+}
+
+.header_title
+{
+   font-family: 'Noto Sans JP', sans-serif;
+   font-weight: 500;
+   font-size: 90px;
+   line-height: 105.8%;
+   text-transform: uppercase;
+   color: #000000;
+   margin-bottom: 200px;
+}
+
+.header_bottom
+{
+   margin-top: -40px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.header_right
+{
+   margin-top: auto;
+   margin-left: auto;
+   width: 50px;
+   z-index: 10;
+}
+
+.header_slider
+{
+   margin-top: -80px;
+   margin-left: -200px;
+   width: 877px;
+   height: 565px;
+}
+
+.header_about
+{
+   width: 100px;
+   margin-right: 150px;
+}
+.header_link
+{
+   display: block;
+   margin: 20px;
    font-size: 15px;
-line-height: 105.3%;
-text-transform: uppercase;
-color: #000000;
-font-family: 'Noto Sans JP', sans-serif;
-text-decoration: none;
-margin: 19.5px 0px;
+   text-transform: uppercase;
+   color: #000000;
+   font-family: 'Noto Sans JP', sans-serif;
+   text-decoration: none;
+}
+
+
+
+/* Button */
+
+.button
+{
+   font-size: 15px;
+   line-height: 105.3%;
+   text-transform: uppercase;
+   color: #000000;
+   background-color: transparent;
+   border: none;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+
+.button_pressed::after
+{
+   content: "";
+   display: block;
+   height: 1px;
+   width: 70%;
+   background: black;
+   margin-top: 15%;
+}
+
+.header_details_button
+{
+   font-size: 17px;
+   line-height: 105.8%;
+   letter-spacing: 0.24em;
+   text-transform: uppercase;
+   color: #000000;
 }
