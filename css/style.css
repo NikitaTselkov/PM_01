@@ -14,7 +14,7 @@
 
 body
 {
-   min-width: 1000px;
+   min-width: 1200px;
    background: #F5F5F5;
 }
 
@@ -39,6 +39,7 @@ body
 .header_content
 {
    margin-top: 60px;
+   justify-content: space-around;
 }
 
 .header_top
@@ -61,7 +62,7 @@ body
 {
    margin-top: -40px;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
 }
 
 .header_right
@@ -96,7 +97,78 @@ body
    text-decoration: none;
 }
 
+/* Body section */
 
+.body
+{
+   height: 950px;
+}
+
+.body_content
+{
+   display: flex;
+   justify-content: space-around;
+}
+
+.body_title
+{
+   font-family: 'Noto Sans JP', sans-serif;
+   font-weight: 500;
+   font-size: 50px;
+   line-height: 174.3%;
+   text-transform: uppercase;
+   color: #000000;
+   margin-top: 50px;
+}
+
+.body_info
+{
+   font-family: 'Noto Sans JP', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 174.3%;
+   letter-spacing: 0.02em;
+   text-transform: uppercase;
+   color: #000000;
+   margin-top: 50px;
+}
+
+.body_content_right
+{
+   position: relative;
+   margin-top: 100px;
+}
+
+.body_content_image
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   margin-top: 400px;
+   margin-left: -500px;
+}
+
+.body_cards
+{
+   margin-top: 100px;
+}
+
+.body_card_image
+{
+   height: 249px;
+}
+
+.body_card_text
+{
+   font-family: 'Noto Sans JP', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 174.3%;
+   text-transform: uppercase;
+   color: #000000;
+   margin-top: 30px;
+}
 
 /* Button */
 
@@ -129,4 +201,23 @@ body
    letter-spacing: 0.24em;
    text-transform: uppercase;
    color: #000000;
+}
+
+.body_card
+{
+   background-color: transparent;
+   border: none;
+   text-align: left;
+   cursor: pointer;
+   margin: 0 15px;
+}
+
+.body_card::before
+{
+   display: block;
+   content: "";
+   background: black;
+   height: 1px;
+   width: 60px;
+   margin-bottom: 40px;
 }
