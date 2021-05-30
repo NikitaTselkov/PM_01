@@ -16,6 +16,7 @@ body
 {
    min-width: 1200px;
    background: #F5F5F5;
+   position: relative;
 }
 
 /* Header */
@@ -81,6 +82,11 @@ body
    height: 565px;
 }
 
+.header_slider_buttons
+{  
+   margin-left: 50px;
+}
+
 .header_about
 {
    width: 100px;
@@ -108,6 +114,7 @@ body
 {
    display: flex;
    justify-content: space-around;
+   z-index: 9999;
 }
 
 .body_title
@@ -145,7 +152,8 @@ body
    left: 0;
    top: 0;
    margin-top: 400px;
-   margin-left: -500px;
+   margin-left: -580px;
+   z-index: -500;
 }
 
 .body_cards
@@ -168,6 +176,49 @@ body
    text-transform: uppercase;
    color: #000000;
    margin-top: 30px;
+}
+
+/* Footer */
+
+.footer
+{
+   margin-top: 100px;
+   position: absolute;
+   height: 880px;
+   background: rgba(238, 238, 238, 0.98);
+   z-index: 1;
+   width: 100%;
+}
+
+.footer_content
+{
+   margin-top: 150px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.footer_title
+{
+   font-family: 'Noto Sans JP', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 50px;
+   line-height: 174.3%;
+   text-transform: uppercase;
+   color: #000000;
+   margin-top: 50px;
+}
+
+.footer_info
+{
+   font-family: 'Noto Sans JP', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 174.3%;
+   letter-spacing: 0.02em;
+   text-transform: uppercase;
+   color: #000000;
+   margin-top: 150px;
 }
 
 /* Button */
@@ -220,4 +271,43 @@ body
    height: 1px;
    width: 60px;
    margin-bottom: 40px;
+}
+
+.footer_button
+{
+   display: block;
+   height: 50px;
+   width: 270px;
+   font-family: 'Noto Sans JP', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 174.3%;
+   text-transform: uppercase;
+   text-align: left;
+   color: #000000;
+   background-color: transparent;
+   border: 1px solid #C4C4C4;
+   border-left: none;
+   border-right: none;
+   padding: 10px;
+   margin-top: 50px;
+   cursor: pointer;
+}
+
+.radio_button
+{
+   display: inline-block;
+   width: 5px;
+   height: 5px;
+   background-color: #B6B6B6; 
+   border-radius: 50%;
+   background-size: auto;
+   border: none;
+   margin: 0 25px;
+}
+
+.radio_button_checked
+{
+   background: #000000;
 }
