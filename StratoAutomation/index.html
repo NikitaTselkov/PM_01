@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Strato Automation</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="header__center">
+                <nav class="about">
+                    <a class="about__item" href="#">Collaborations</a>
+                    <a class="about__item" href="#">Documentation</a>
+                    <a class="about__item" href="#">Contact</a>
+                </nav>
+            </div>
+            <div class="header__right">
+                <nav class="about__language">
+                    <button class="select__language selected">En</button>
+                    <button class="select__language">Fr</button>
+                </nav>
+            </div>
+        </div>
+        <div class="header__bottom warp">
+            <svg class="logo" viewBox="0 0 159 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 12C0 5.37258 5.37258 0 12 0V24C5.37258 24 0 18.6274 0 12Z" fill="#252930" />
+                <path d="M11 0H28V12H11V0Z" fill="#252930" />
+                <path d="M28 12C34.6274 12 40 17.3726 40 24C40 30.6274 34.6274 36 28 36V12Z" fill="#252930" />
+                <path d="M12 24H29V36H12V24Z" fill="#252930" />
+                <path
+                    d="M50.9011 10.2586C50.9011 12.069 52.3517 13.1552 54.4066 13.1552H54.6484C56.3407 13.1552 57.4286 12.3103 57.4286 11.1034C57.4286 10.0172 56.8242 9.53448 55.3736 9.17241L52.8352 8.68966C50.4176 8.2069 49.0879 6.63793 49.0879 4.46552C49.0879 2.05172 51.1429 0 54.6484 0C58.1538 0 60.2088 1.93103 60.2088 4.82759H57.6703C57.5495 3.25862 56.3407 2.2931 54.6484 2.2931H54.4066C52.8352 2.2931 51.6264 3.25862 51.6264 4.34483C51.6264 5.43103 52.2308 6.03448 53.5604 6.27586L55.8571 6.75862C58.5165 7.24138 59.967 8.56897 59.967 10.9828C59.967 13.6379 57.7912 15.4483 54.2857 15.4483C50.5385 15.4483 48.4835 13.5172 48.2418 10.3793H50.9011V10.2586Z"
+                    fill="black" />
+                <path
+                    d="M63.7143 6.51724H61.4176V4.46552H63.7143V1.08621H66.1319V4.58621H68.5495V6.63793H66.1319V12.069C66.1319 12.9138 66.3736 13.1552 67.2198 13.1552H69.033V15.2069H66.3736C64.6813 15.2069 63.7143 14.3621 63.7143 12.5517V6.51724Z"
+                    fill="black" />
+                <path
+                    d="M71.0879 4.46552H73.5055V6.63793C73.989 5.18965 75.0769 4.34483 76.6483 4.34483H77.3736V6.63793H76.5275C74.5934 6.63793 73.6264 7.72414 73.6264 9.65517V15.0862H71.2088V4.46552H71.0879Z"
+                    fill="black" />
+                <path
+                    d="M84.989 15.0862C84.989 14.8448 84.8681 14.4828 84.8681 13.8793V13.6379C84.2637 14.6034 83.055 15.3276 81.6044 15.3276C79.5495 15.3276 78.0989 14 78.0989 12.1897C78.0989 10.0172 79.7912 8.93103 81.967 8.81034L84.7473 8.56896V8.2069C84.7473 7 84.022 6.15517 82.8132 6.15517H82.5714C81.4835 6.15517 80.7582 6.75862 80.6374 7.60345H78.2198C78.4615 5.55172 80.1539 4.22414 82.6923 4.22414C85.3517 4.22414 87.1648 5.7931 87.1648 8.2069V12.7931C87.1648 13.8793 87.1648 14.6034 87.2857 15.0862H84.989ZM84.8681 10.3793L82.4506 10.6207C81.3626 10.7414 80.6374 11.2241 80.6374 12.069C80.6374 12.7931 81.2418 13.3966 82.2088 13.3966H82.3297C83.6593 13.3966 84.989 12.3103 84.989 11.1034V10.3793H84.8681Z"
+                    fill="black" />
+                <path
+                    d="M90.7912 6.51724H88.4945V4.46552H90.7912V1.08621H93.2088V4.58621H95.6264V6.63793H93.2088V12.069C93.2088 12.9138 93.4506 13.1552 94.2967 13.1552H96.1099V15.2069H93.4505C91.7582 15.2069 90.7912 14.3621 90.7912 12.5517V6.51724Z"
+                    fill="black" />
+                <path
+                    d="M102.396 4.22414C105.418 4.22414 107.714 6.51724 107.714 9.77586C107.714 13.0345 105.538 15.3276 102.396 15.3276C99.3736 15.3276 97.1978 13.0345 97.1978 9.77586C97.0769 6.63793 99.2527 4.22414 102.396 4.22414ZM102.396 13.3966C103.967 13.3966 105.055 12.069 105.055 9.89655C105.055 7.72414 103.967 6.39655 102.396 6.39655H102.154C100.582 6.39655 99.4945 7.72414 99.4945 9.89655C99.4945 12.069 100.582 13.3966 102.154 13.3966H102.396Z"
+                    fill="black" />
+                <path
+                    d="M58.8791 30.6552H51.1429L49.4505 34.7586H48L54.1648 19.9138H56.0989L62.1429 34.7586H60.5714L58.8791 30.6552ZM58.2747 29.2069L55.011 21.1207L51.7473 29.2069H58.2747Z"
+                    fill="black" />
+                <path
+                    d="M63.8352 24.1379H65.1648V30.7759C65.1648 32.8276 66.011 33.9138 67.7033 33.9138H67.945C69.5165 33.9138 71.0879 32.3448 71.0879 29.931V24.1379H72.4176V34.7586H71.0879V32.7069C70.6044 34.1552 69.2747 34.8793 67.5824 34.8793C65.2857 34.8793 63.8352 33.3103 63.8352 31.0172V24.1379Z"
+                    fill="black" />
+                <path
+                    d="M77.011 25.2241H74.5934V24.0172H77.011V20.5172H78.3407V24.1379H81V25.3448H78.3407V32.8276C78.3407 33.431 78.5824 33.6724 79.1868 33.6724H81.3626V34.8793H79.0659C77.7363 34.8793 77.011 34.2759 77.011 32.9483V25.2241Z"
+                    fill="black" />
+                <path
+                    d="M87.5275 23.8966C90.3077 23.8966 92.3626 26.1897 92.3626 29.4483C92.3626 32.7069 90.1868 35 87.5275 35C84.8681 35 82.6923 32.7069 82.6923 29.4483C82.5714 26.1897 84.7472 23.8966 87.5275 23.8966ZM87.6483 33.7931C89.5824 33.7931 91.033 32.1034 91.033 29.4483C91.033 26.7931 89.5824 25.1034 87.6483 25.1034H87.4066C85.4725 25.1034 84.022 26.7931 84.022 29.4483C84.022 32.1034 85.4725 33.7931 87.4066 33.7931H87.6483Z"
+                    fill="black" />
+                <path
+                    d="M95.1429 24.1379H96.4725V25.8276C97.1978 24.6207 98.4066 23.8966 99.978 23.8966C101.549 23.8966 102.879 24.7414 103.363 26.069C104.088 24.6207 105.418 23.8966 107.11 23.8966C109.165 23.8966 110.736 25.3448 110.736 27.7586V34.7586H109.407V28.2414C109.407 26.069 108.56 25.1034 106.989 25.1034H106.868C104.813 25.1034 103.725 27.1552 103.725 29.4483V34.7586H102.396V28.2414C102.396 26.069 101.549 25.1034 99.978 25.1034H99.8571C97.8022 25.1034 96.7143 27.1552 96.7143 29.4483V34.7586H95.1429V24.1379Z"
+                    fill="black" />
+                <path
+                    d="M120.769 34.7586C120.769 34.3966 120.648 33.7931 120.648 33.069C120.165 34.0345 118.714 35 116.901 35C115.088 35 113.516 33.6724 113.516 31.8621C113.516 30.7759 113.879 30.0517 114.604 29.569C115.33 29.0862 116.176 28.7241 117.264 28.7241L120.648 28.4828V28C120.648 26.1897 119.56 25.1034 117.989 25.1034H117.868C116.418 25.1034 115.33 25.8276 115.209 27.1552H113.879C114 25.2241 115.692 24.0172 117.989 24.0172C120.648 24.0172 122.099 25.8276 122.099 28V32.4655C122.099 33.5517 122.099 34.2759 122.22 34.7586H120.769ZM120.527 29.4483L117.385 29.6897C115.813 29.8103 114.846 30.5345 114.846 31.7414C114.846 32.9483 115.692 33.7931 117.022 33.7931H117.264C118.714 33.7931 120.648 32.4655 120.648 30.8966V29.4483H120.527Z"
+                    fill="black" />
+                <path
+                    d="M125.846 25.2241H123.429V24.0172H125.846V20.5172H127.176V24.1379H129.835V25.3448H127.176V32.8276C127.176 33.431 127.418 33.6724 128.022 33.6724H130.198V34.8793H127.901C126.571 34.8793 125.846 34.2759 125.846 32.9483V25.2241Z"
+                    fill="black" />
+                <path
+                    d="M132.253 20.3966H133.824V22.2069H132.253V20.3966ZM132.374 24.1379H133.824V34.7586H132.495V24.1379H132.374Z"
+                    fill="black" />
+                <path
+                    d="M141.44 23.8966C144.22 23.8966 146.275 26.1897 146.275 29.4483C146.275 32.7069 144.099 35 141.44 35C138.659 35 136.604 32.7069 136.604 29.4483C136.604 26.1897 138.659 23.8966 141.44 23.8966ZM141.56 33.7931C143.495 33.7931 144.945 32.1034 144.945 29.4483C144.945 26.7931 143.495 25.1034 141.56 25.1034H141.319C139.385 25.1034 137.934 26.7931 137.934 29.4483C137.934 32.1034 139.385 33.7931 141.319 33.7931H141.56Z"
+                    fill="black" />
+                <path
+                    d="M149.176 24.1379H150.505V25.9483C151.11 24.7414 152.56 23.8966 154.253 23.8966C156.429 23.8966 158 25.3448 158 27.7586V34.7586H156.549V28.2414C156.549 26.069 155.703 25.1034 154.011 25.1034H153.89C151.714 25.1034 150.505 27.1552 150.505 29.4483V34.7586H149.176V24.1379Z"
+                    fill="black" />
+            </svg>
+            <nav class="about__bottom">
+                <a class="about__item__bottom" href="#">Solutions</a>
+                <a class="about__item__bottom" href="#">Products</a>
+                <a class="about__item__bottom" href="#">About us</a>
+            </nav>
+            <button class="button__header">Partners Resources</button>
+        </div>
+    </header>
+
+    <section class="header__inner warp">
+        <div class="header__inner__content">
+            <h1 class="header__inner__item">Efficient and Data-Driven</h1>
+            <h1 class="header__inner__item"> Building Automation</h1>
+        </div>
+        <img class="city" src="img/City.png" alt="">
+    </section>
+
+    <section class="new__product">
+        <div class="new__product__content">
+            <div class="new__product__item">
+                <svg class="new__product__svg" width="494" height="438" viewBox="0 0 494 438" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M412 140.454V295H302V142.261H192C192 81.2561 241.14 32 302 32C361.959 32 411.098 80.3521 412 140.454Z"
+                        fill="#FF5F00" />
+                    <path
+                        d="M302 294.739C302 355.744 252.861 405 192 405C132.041 405 82.9018 356.648 82 296.546V142H192V294.739H302Z"
+                        fill="#FF5F00" />
+                    <path
+                        d="M143.505 0H348V146H145.897V292C65.1753 292 0 226.778 0 146C0 66.4181 63.9796 1.19651 143.505 0Z"
+                        fill="#E8E9EA" />
+                    <path
+                        d="M348.103 146C428.825 146 494 211.221 494 292C494 371.582 430.02 436.803 350.495 438H146V292H348.103V146Z"
+                        fill="#E8E9EA" />
+                </svg>
+                <img class="new__product__img" src="img/BACwALL437FCU.png" alt="">
+            </div>
+            <div class="new__product__info">
+                <div class="new__product__info__content">
+                    <h5 class="new__product__title">New product</h5>
+                    <h2 class="new__product__name">BACwALL 437 FCU</h2>
+                    <ul class="list">
+                        <li class="new__product__description">Fully Reprogrammable FCU BACnet Room Controller</li>
+                        <li class="new__product__description">Features Rich & Cost Effective</li>
+                    </ul>
+                    <button class="button new__product__button">View product</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="card__section warp">
+        <div class="card__section__info">
+            <div>
+                <h5 class="card__section__title">Solutions</h5>
+                <h3 class="card__section__subtitle">Find the combination <br> that suits your project</h3>
+            </div>
+            <button class="button">Learn more</button>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="card__background">
+                    <p class="card__summary">Light Commercial Buildings</p>
+                    <h2 class="card__title">Strato <br> Light Commercial</h2>
+                    <img src="img/Light_Commercial.png" alt="">
+                </div>
+                <div class="card__info">
+                    <p class="card__description border__buttom">Extremely Simple</p>
+                    <p class="card__description">Compatible with Strato Enterprise</p>
+                    <button class="button card__button">Learn more</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__background">
+                    <p class="card__summary">Large Facilities</p>
+                    <h2 class="card__title">Strato <br> Enterprise</h2>
+                    <img src="img/Enterprise.png" alt="">
+                </div>
+                <div class="card__info">
+                    <p class="card__description border__buttom">Flexible and Powerful Software</p>
+                    <p class="card__description">Integrates with Strato Light Commercial</p>
+                    <button class="button card__button">Learn more</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__background">
+                    <p class="card__summary">Add-on solution available</p>
+                    <h2 class="card__title">Strato <br> Cloud Services</h2>
+                    <img src="img/Cloud_Services.png" alt="">
+                </div>
+                <div class="card__info">
+                    <p class="card__description border__buttom">Alerting and Backup</p>
+                    <p class="card__description">Energy Efficiency Services</p>
+                    <button class="button card__button">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="company">
+        <div class="company__info warp">
+            <div class="company__info__left">
+                <h2 class="company__info__title">Don’t know what kind <br> of solutions you <br> need?</h2>
+                <button class="button">Compare the solutions</button>
+            </div>
+            <div class="company__info__right">
+                <div class="company__info__content">
+                    <h3 class="company__info__suptitle">Distributors</h3>
+                    <div class="company__info__blocks">
+                        <div class="company__info__block">
+                            <h3 class="company__info__suptitle">System Integrators</h3>
+                            <button class="button button__with__bottom">Strato Enterprise</button>
+                            <button class="button company__info__button">Strato Cloud Services</button>
+                        </div>
+                        <div class="company__info__block">
+                            <h3 class="company__info__suptitle">Energy Service company/MSI</h3>
+                            <button class="button button__with__bottom">Strato Enterprise</button>
+                            <button class="button button__with__bottom">Strato Cloud Services</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stories warp">
+        <img src="img/house.png" alt="">
+        <div class="stories__info">
+            <h2 class="stories__title">Success Stories</h2>
+            <p class="stories__content">Hundreds of projects delivered in 10 years +. All types of <br> buildings will
+                benefit from a Strato
+                Automation™ solution.</p>
+            <button class="button">Our collaborations</button>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="products__content warp">
+            <div class="products__content__left">
+                <h2 class="products__content__title">For each solution, its <br> range of products</h2>
+                <button class="button button__with__bottom products__button">Products list</button>
+            </div>
+            <div class="products__content__right">
+                <img src="img/Products.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="news__content warp">
+            <div class="news__content__links">
+                <h2 class="news__title">News</h2>
+                <nav class="news__links">
+                    <div class="news__content__left">
+                        <p class="news__data">October 15, 2020</p>
+                        <p class="news__suptitle">Welcome Kelle!</p>
+                        <a href="#" class="news__link">linkedin.com/posts/michel-l…</a>
+                    </div>
+                    <div class="news__content__right">
+                        <p class="news__data">June 30, 2020</p>
+                        <p class="news__suptitle">New product!</p>
+                        <a href="#" class="news__link">linkedin.com/posts/michel-l…</a>
+                    </div>
+                </nav>
+                <div class="news__border"></div>
+            </div>
+            <div class="news__documentation">
+                <h3 class="news__documentation__title">Documentation</h3>
+                <img class="news__documentation__img" src="img/Documentation.png" alt="">
+                <button class="button  button__with__bottom news__documentation__button">Documentation</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__content warp">
+            <div class="footer__logo">
+                <img src="img/Logo.svg" alt="">
+                <p class="footer__logo__date">©2020</p>
+            </div>
+            <div class="footer__contacts">
+                <h6 class="footer__contacts__title">Contact</h6>
+                <p class="footer__contacts__addres">6595 Rue Saint-Urbain (Suite 300)</p>
+                <p class="footer__contacts__addres">Montréal, QC H2S 3G6</p>
+                <p class="footer__contacts__addres">Canada</p>
+                <p class="footer__contacts__phone">514 687-1902</p>
+                <p class="footer__contacts__mail">info@stratoautomation.com</p>
+            </div>
+            <nav class="footer__follow">
+                <h6 class="footer__follow__title">Follow Us</h6>
+                <div class="footer__follow__content">
+                    <div class="footer__twitter">
+                        <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 1.496C15.403 1.7808 14.7641 1.97048 14.107 2.058C14.7691 1.683 15.337 1.028 15.5263 0.281C14.8642 0.655 14.2002 0.935 13.444 1.029C12.8751 0.374 12.0238 0 11.0763 0C9.27749 0 7.76414 1.496 7.76414 3.273C7.76414 3.554 7.76414 3.741 7.85929 4.022C5.11198 3.835 2.65115 2.619 1.04163 0.562C0.758193 1.121 0.566873 1.682 0.566873 2.244C0.566873 3.366 1.13476 4.394 2.08225 4.956C1.51335 4.956 1.03961 4.769 0.566873 4.582C0.562754 5.33462 0.825719 6.06487 1.31006 6.64583C1.7944 7.22679 2.4695 7.62173 3.21802 7.762C2.93458 7.855 2.65013 7.949 2.36568 7.949C2.17639 7.949 1.98709 7.949 1.70264 7.855C2.08225 9.165 3.31216 10.1 4.82753 10.1C3.69075 10.941 2.27154 11.503 0.756168 11.503H0C1.42022 12.439 3.21903 13 5.11198 13C11.1715 13 14.4856 8.043 14.4856 3.741V3.273C15.0888 2.76981 15.6009 2.1689 16 1.496Z"
+                                fill="black" />
+                        </svg>
+                        <a href="#" class="footer__follow__link">Twitter</a>
+                    </div>
+                    <div class="footer__linkedin">
+                        <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.48269 14H0.376851V4.48747H3.48269V14ZM1.8823 3.3208C0.753701 3.3208 0 2.60213 0 1.7052C0 0.717733 0.753701 0 1.8823 0C3.01187 0 3.76459 0.718667 3.76459 1.61467C3.76459 2.60213 3.01089 3.3208 1.8823 3.3208ZM16 14H12.4233V9.06453C12.4233 7.80733 11.8586 6.9104 10.635 6.9104C9.69436 6.9104 9.22354 7.53853 8.94164 8.07707V14H5.45895V4.48747H8.94164V6.01253C9.12957 5.3844 10.2591 4.39787 12.0475 4.39787C14.3056 4.39787 16 5.74373 16 8.7052V14Z"
+                                fill="black" />
+                        </svg>
+                        <a href="#" class="footer__follow__link">Linkedin</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="footer__feedback">
+                <h6 class="footer__feedback__title">Subscribe to updates</h6>
+                <button class="button button__with__bottom footer__feedback__button">Email address</button>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

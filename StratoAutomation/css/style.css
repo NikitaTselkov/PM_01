@@ -1,0 +1,795 @@
+
+/* Default */
+
+body
+{
+    margin: 0; 
+    padding: 0;
+    min-width: 1430px;
+}
+
+.button
+{
+    font-size: 16px;
+    line-height: 16px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-image: url(/img/Arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: pointer;
+    border: 2px solid #FF5F00;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    padding: 0 25px 5px 0;
+    height: 35px;
+}
+
+.warp
+{
+    margin: 0 40px;
+}
+
+.list
+{
+    list-style: none;
+    padding: 0;
+}
+
+.border__buttom
+{
+    border-bottom: 1px solid rgba(37, 41, 48, 0.2);
+}
+
+/* Header */
+
+.header
+{
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.header__top
+{
+    border-bottom: 0.5px solid black;
+    display: flex;
+    padding-left: 150px;
+}
+
+.header__bottom
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    width: 159px;
+    height: 36px;
+    margin: 20px 0;
+}
+
+.header__center
+{
+    height: 30px;
+    margin: auto;
+}
+
+.header__right
+{
+   height: 30px;
+   margin-right: 10px;
+}
+
+.header__inner__item
+{
+    font-size: 56px;
+    font-family: 'Roboto', sans-serif;
+    color: #252930;
+    line-height: 62px;
+}
+
+.header__inner__content
+{
+    margin: auto;
+}
+
+.header__inner
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.city
+{
+    margin: 0 -40px 0 0;
+}
+
+/* About */
+
+.about
+{
+    width: 450px;
+    margin: auto;
+    display: block
+}
+
+
+.about__item__bottom
+{
+    margin: 0 30px;
+    text-decoration: none;
+    color: #252930;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 20,3px;
+}
+
+.about__item
+{
+    margin: 0 30px;
+    text-decoration: none;
+    color: #252930;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 20,3px;
+}
+
+.select__language
+{
+    background-color: #fff;
+    border: 0;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #252930;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 16,3px;
+    opacity: 40%;
+}
+
+.selected,
+.select__language:hover
+{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+/* New product */
+
+.new__product
+{
+    margin-top: 100px;
+    height: 730px;
+    position: relative;
+}
+
+.new__product__content
+{
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.new__product__img
+{
+   margin-top: 50px;
+   margin-left: 70px;
+   position: absolute;
+}
+
+.new__product__svg
+{
+    position: absolute;
+}
+
+.new__product__info
+{
+    border: 1px solid #252930;
+    box-sizing: border-box;
+    border-radius: 0px;
+    width: 585px;
+    height: 320px;
+    margin-top: 150px;
+}
+
+.new__product__info__content
+{
+    margin: 50px;
+}
+
+.new__product__item
+{
+    width: 494px;
+    height: 517px;
+    margin-right: -20px;
+}
+
+.new__product__title
+{
+    color: #252930;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-shadow: 0 0.3px 0 black;
+    margin: 0;
+}
+
+.new__product__name
+{
+    color: #252930;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    text-shadow: 0 0.3px 0 black;
+    margin: 10px 0 30px 0;
+}
+
+.new__product__description
+{
+    color: rgba(37, 41, 48, 0.8);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.new__product__description::before
+{
+    content: url(/img/marker.svg);
+    padding-right: 5px;
+}
+
+
+/* Cards */
+
+.card__section
+{
+    min-height: 980px;
+    margin-top: 0;
+}
+
+.cards
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    flex-wrap: wrap;
+}
+
+.card
+{
+   margin-top: 30px;
+   width: 450px;
+   position: relative;
+}
+
+.card__info
+{
+    margin: 30px;
+}
+
+.card__background
+{
+    background-color: #F87200;
+    height: 418px;
+}
+
+.card__title
+{
+    color: #252930;
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 25px;
+    position: absolute;
+}
+
+.card__summary
+{
+    font-size: 12px;
+    line-height: 17px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #E8E9EA;
+    display: block;
+    position: absolute;
+    padding: 7px 10px ;
+    right: 0;
+    margin: -15px 50px 0 0;
+}
+
+.card__section__info
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: auto;
+}
+
+.card__section__title
+{
+    font-size: 24px;
+    line-height: 26px;
+    color: #252930;
+    text-shadow: 0 0.3px 0 black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.card__section__subtitle
+{
+    font-size: 36px;
+    line-height: 40px;
+    color: rgba(37, 41, 48, 0.8);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.card__description
+{
+    font-size: 16px;
+    line-height: 18px;
+    color: #F87200;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Company */
+
+.company
+{
+    height: 480px;
+}
+
+.company__info
+{
+    position: relative;
+    background-color: white;
+    height: 336px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company__info__left
+{
+    margin: 30px;
+    width: 600px;
+    margin-right: 80px;
+}
+
+.company__info__right
+{
+    background-color: #E8E9EA;
+    width: 100%;
+    position: relative;
+}
+
+.company__info__content
+{
+    display: flex;
+    margin: 60px 40px;
+    justify-content: space-between;
+}
+
+.company__info__blocks
+{
+    display: flex;
+}
+
+.company__info__block
+{
+    display: block;
+    width: 225PX;
+    margin: 0 0 0 40px;
+}
+
+.company__info__suptitle
+{
+    color: #252930;
+    font-size: 24px;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 0.2px 0 black;
+}
+
+.company__info__title
+{
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #252930;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+/* Stories */
+
+.stories
+{
+    height: 565px;
+    display: flex;
+    justify-content: center;
+}
+
+.stories__info
+{
+    border: 1px solid #252930; 
+    box-sizing: border-box;
+    border-radius: 0px;
+    height: 295px;
+    padding: 60px;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+
+.stories__title
+{
+    font-size: 35px;
+    line-height: 40px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.stories__content
+{
+    font-size: 15px;
+    line-height: 23px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* Products */
+
+.products
+{
+    height: 570px;
+}
+
+.products__content
+{
+    background-color: #F87200;
+    margin-top: 100px;
+    display: flex;
+    height: 469px;
+}
+
+.products__content__title
+{
+    font-size: 36px;
+    line-height: 40px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.products__content__left
+{
+    margin: auto;
+}
+
+.products__content__right
+{
+    margin: auto;
+}
+
+/* News */
+
+.news
+{
+    height: 430px;
+}
+
+.news__content
+{
+   display: flex;
+   position: relative;
+}
+
+.news__links
+{
+    display: flex;
+    margin: 40px auto;
+}
+
+.news__content__left
+{
+    margin-right: auto;
+}
+
+.news__content__right
+{
+    margin-right: auto;
+}
+
+.news__content__links
+{
+    width: 100%;
+}
+
+.news__documentation
+{
+    background-color: #F87200;
+    padding: 40px;
+    padding-right: 200px ;
+    margin-left: auto;
+    margin-right: -40px;
+}
+
+.news__documentation__title
+{
+    font-size: 36px;
+    line-height: 40px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.news__documentation__img
+{
+    margin-bottom: 50px;
+}
+
+.news__data
+{
+    font-size: 13px;
+    line-height: 19px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.news__suptitle
+{
+    font-size: 15px;
+    line-height: 23px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.news__link
+{
+    font-size: 15px;
+    line-height: 23px;
+    color: #F87200;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.news__title
+{
+    margin: 0;
+    font-size: 36px;
+    line-height: 40px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.news__border
+{
+    background-color: black;
+    height: 1px;
+    margin-left: -40px;
+    margin-top: 315px;
+}
+
+/* Footer */
+
+.footer
+{
+    height: 220px;
+    position: relative;
+}
+
+.footer__content
+{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%
+}
+
+.footer__contacts__title
+{
+    font-size: 13px;
+    line-height: 19px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-shadow: 0 0.2px 0 black;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.footer__contacts__addres
+{
+    font-size: 16px;
+    line-height: 23px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.footer__contacts__phone
+{
+    font-size: 16px;
+    line-height: 23px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.footer__contacts__mail
+{
+    font-size: 15px;
+    line-height: 23px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.footer__logo__date
+{
+    font-size: 13px;
+    line-height: 19px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 80px;
+}
+
+.footer__follow__title
+{
+    font-size: 13px;
+    line-height: 19px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.footer__follow__link
+{
+    font-size: 12px;
+    line-height: 17px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer__follow__content
+{
+    display: flex;
+}
+
+.footer__twitter
+{
+    display: flex;
+}
+
+.footer__linkedin
+{
+    display: flex;
+    margin-left: 60px;
+}
+
+.footer__feedback__title
+{
+    font-size: 13px;
+    line-height: 19px;
+    color: #252930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Button */
+
+.button__header
+{
+    background-color: #fff;
+    border: 1px solid #252930;
+    box-sizing: border-box;
+    border-radius: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.news__documentation__button
+{
+    margin: 0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button__header:hover
+{
+    background: #F87200;
+    color: #fff;
+    border-color: #fff;
+}
+
+.new__product__button
+{
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+
+.card__button
+{
+    border-bottom: none;
+    margin: 0;
+    padding: 0 25px 0 0;
+    cursor: pointer;
+}
+
+.company__info__button
+{
+    border-bottom: none;
+    margin: 0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.products__button
+{
+    text-shadow: 0 0.2px 0 black;
+    cursor: pointer;
+}
+
+.button__with__bottom
+{
+    border-bottom: 1px solid black;
+    margin: 0;
+    margin-top: 10px;
+    padding-bottom: 0;
+    cursor: pointer;
+}
+
+.footer__feedback__button
+{
+    padding-right: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+}
